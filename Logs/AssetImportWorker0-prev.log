@@ -1,0 +1,426 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Utilisateur/Exercice
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64621
+Successfully changed project path to: C:/Users/Utilisateur/Exercice
+C:/Users/Utilisateur/Exercice
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Utilisateur/Exercice/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006896 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (600ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (431ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Exercice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Exercice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (115.1 KB). Loaded Objects now: 3877.
+Memory consumption went from 132.6 MB to 132.5 MB.
+Total: 2.753300 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.180400 ms MarkObjects: 2.233300 ms  DeleteObjects: 0.092000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 697333.168806 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_naked_00_body.fbx
+  artifactKey: Guid(8887419e26ffdd444ad1b5b3f79500b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_naked_00_body.fbx using Guid(8887419e26ffdd444ad1b5b3f79500b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c5c3c8d20a58fb1dd17f3f85969881') in 0.150785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_naked_body.fbx
+  artifactKey: Guid(49453a44b612c864790f0f4d944feae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_naked_body.fbx using Guid(49453a44b612c864790f0f4d944feae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad80b7d0082e906c63310f3e78026a77') in 0.025391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_gauntlets.fbx
+  artifactKey: Guid(39c545d587e135743a3e5baf74fa301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_gauntlets.fbx using Guid(39c545d587e135743a3e5baf74fa301a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fefbb62ae2fe751365b1dd629543121') in 0.028519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_05_C_body.fbx
+  artifactKey: Guid(2e57b71a46f8d644f87f34c1dd7ffd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_05_C_body.fbx using Guid(2e57b71a46f8d644f87f34c1dd7ffd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18bc068e2d240b90aea478682795402') in 0.027406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_hair_20.fbx
+  artifactKey: Guid(12ba2783c9682a2469c6141eefa300ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_hair_20.fbx using Guid(12ba2783c9682a2469c6141eefa300ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d954432b5359b572093d3c70f57890') in 0.025000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_01_A_boots.fbx
+  artifactKey: Guid(24ea26da8c8ca9849ad6d96ca2d28aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_01_A_boots.fbx using Guid(24ea26da8c8ca9849ad6d96ca2d28aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbc3f53cd8346c684de03b7136e57f0') in 0.027434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_cloth_00_legs.fbx
+  artifactKey: Guid(0ff00be3e6db84345afdfd11216675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_cloth_00_legs.fbx using Guid(0ff00be3e6db84345afdfd11216675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501ee9aaa1878b821b22cbc423eab0e7') in 0.024106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_05_C_legs.fbx
+  artifactKey: Guid(250dbec7e556f2d44ba10bbab313e688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_05_C_legs.fbx using Guid(250dbec7e556f2d44ba10bbab313e688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0e4c20f3c8a2ad9f7f2243ccaa28c7') in 0.028220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_01_A_body.fbx
+  artifactKey: Guid(ba3eaedf5b135cf45a659743fb10f5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_01_A_body.fbx using Guid(ba3eaedf5b135cf45a659743fb10f5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a35e604978287b2c384ded032efaf7') in 0.022725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_head_01.fbx
+  artifactKey: Guid(307848df6b66de44b9d8be04bfda3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_head_01.fbx using Guid(307848df6b66de44b9d8be04bfda3824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f9a6226abb2788cb968b0f94b29395') in 0.023004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_beard_20.fbx
+  artifactKey: Guid(08a4cd535f1169744bccbf89740bb64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_beard_20.fbx using Guid(08a4cd535f1169744bccbf89740bb64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7745f31d9225aa1988da4a9833c65365') in 0.023605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_cloth_00_boots.fbx
+  artifactKey: Guid(c6bcdacdf5cd08c49ae00f0f0777e46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_cloth_00_boots.fbx using Guid(c6bcdacdf5cd08c49ae00f0f0777e46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f810debdf1cf4b77aa82375912297') in 0.023128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_head_10.fbx
+  artifactKey: Guid(fcb885db32e9b0d489fbd082ffab864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_head_10.fbx using Guid(fcb885db32e9b0d489fbd082ffab864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f653c2f2bc61baf672a5e1e2033ed10c') in 0.026630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_boots.fbx
+  artifactKey: Guid(fd5372065fb4106479fbdc689d7b4c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_boots.fbx using Guid(fd5372065fb4106479fbdc689d7b4c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97794f56304f8c8e089ce3631a18bf7') in 0.022551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_05_C_boots.fbx
+  artifactKey: Guid(2f52d8a6913146149a4883f840e52061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_05_C_boots.fbx using Guid(2f52d8a6913146149a4883f840e52061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dc72ba27db410b239d31511e148ec6') in 0.022663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_body.fbx
+  artifactKey: Guid(4ef757cb881efa94b96f7585ee4af53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_body.fbx using Guid(4ef757cb881efa94b96f7585ee4af53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5dda1a76e19999e3b4eacec690d5e8') in 0.024332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_head_10.fbx
+  artifactKey: Guid(c22e643322badc749954f2a6cf18579b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_head_10.fbx using Guid(c22e643322badc749954f2a6cf18579b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc692113af11146cdd461b02babc533a') in 0.022274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_legs.fbx
+  artifactKey: Guid(7551443fe579232499854e3e288d34d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_legs.fbx using Guid(7551443fe579232499854e3e288d34d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b5890c8ee94ab6c3c86135240d6c16') in 0.022097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_01_A_cape.fbx
+  artifactKey: Guid(693366c6ce624d640ab2260dfa30f659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_01_A_cape.fbx using Guid(693366c6ce624d640ab2260dfa30f659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea275a4beb28d85820a2b8c20547b77') in 0.022137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_naked_00_boots.fbx
+  artifactKey: Guid(b927b46abbacfb24e8508b3138e0b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_naked_00_boots.fbx using Guid(b927b46abbacfb24e8508b3138e0b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eb265ca11ee858827cb7c2f6accf90') in 0.024267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_cloth_00_gauntlets.fbx
+  artifactKey: Guid(bf6caf34280d5dd41967e1b2043a7e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_cloth_00_gauntlets.fbx using Guid(bf6caf34280d5dd41967e1b2043a7e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08389c97fc2260241e80e43e192760ce') in 0.027922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_naked_00_gauntlets.fbx
+  artifactKey: Guid(0b79a599e3338be4b98fb88a3cfaa997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_naked_00_gauntlets.fbx using Guid(0b79a599e3338be4b98fb88a3cfaa997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e038b29fd7045a4f20bb770b27def2d') in 0.022409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_05_C_helmet.fbx
+  artifactKey: Guid(712969c6e24572145bb8f4fdfebc687d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_05_C_helmet.fbx using Guid(712969c6e24572145bb8f4fdfebc687d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4e89020f333344f9a785f302ad6614') in 0.022473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_beard_01.fbx
+  artifactKey: Guid(b43fd528db799e54cbf6467c8d25f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Male_Armor_beard_01.fbx using Guid(b43fd528db799e54cbf6467c8d25f03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fc68893fd3a8f9de31a614eea977d2') in 0.022384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_cape.fbx
+  artifactKey: Guid(f3c001ee6949dd5449df2c39bbd40095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Medieval_Female_Armor_01_A_cape.fbx using Guid(f3c001ee6949dd5449df2c39bbd40095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a045fa2cb20e88df1b0c7a747fb78b') in 0.024295 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005852 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Exercice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Exercice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (82.1 KB). Loaded Objects now: 3892.
+Memory consumption went from 148.0 MB to 147.9 MB.
+Total: 2.886200 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.421600 ms  DeleteObjects: 0.094800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Exercice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Utilisateur\Exercice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (82.2 KB). Loaded Objects now: 3895.
+Memory consumption went from 148.0 MB to 147.9 MB.
+Total: 2.624700 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.179700 ms MarkObjects: 2.135500 ms  DeleteObjects: 0.096000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
